@@ -1,0 +1,2 @@
+C:\Users\p1amen\Desktop\Variables, Data, Expressions and Constants\Task1.ClassSizeInCSharp\bin\Debug\Task1.ClassSizeInCSharp.exe.config
+C:\Users\p1amen\Desktop\Variables, Data, Expressions and Constants\Task1.ClassSizeInCSharp\obj\Debug\Task1.ClassSizeInCSharp.csprojResolveAssemblyReference.cache

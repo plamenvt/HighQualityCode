@@ -1,0 +1,6 @@
+C:\Users\p1amen\Desktop\CodeFormating\CodeFormating\bin\Debug\CodeFormating.exe.config
+C:\Users\p1amen\Desktop\CodeFormating\CodeFormating\bin\Debug\CodeFormating.exe
+C:\Users\p1amen\Desktop\CodeFormating\CodeFormating\bin\Debug\CodeFormating.pdb
+C:\Users\p1amen\Desktop\CodeFormating\CodeFormating\obj\Debug\CodeFormating.csprojResolveAssemblyReference.cache
+C:\Users\p1amen\Desktop\CodeFormating\CodeFormating\obj\Debug\CodeFormating.exe
+C:\Users\p1amen\Desktop\CodeFormating\CodeFormating\obj\Debug\CodeFormating.pdb
