@@ -1,0 +1,5 @@
+C:\Users\p1amen\Desktop\NamingIdentifiers\Task4.Re-factorAndImproving\bin\Debug\Minesweeper.exe
+C:\Users\p1amen\Desktop\NamingIdentifiers\Task4.Re-factorAndImproving\bin\Debug\Minesweeper.pdb
+C:\Users\p1amen\Desktop\NamingIdentifiers\Task4.Re-factorAndImproving\obj\Debug\project.csprojResolveAssemblyReference.cache
+C:\Users\p1amen\Desktop\NamingIdentifiers\Task4.Re-factorAndImproving\obj\Debug\Minesweeper.exe
+C:\Users\p1amen\Desktop\NamingIdentifiers\Task4.Re-factorAndImproving\obj\Debug\Minesweeper.pdb
