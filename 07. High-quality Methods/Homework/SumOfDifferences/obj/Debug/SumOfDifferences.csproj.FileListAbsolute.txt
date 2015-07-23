@@ -1,0 +1,6 @@
+C:\Users\p1amen\Documents\GitHub\HighQualityCode\07. High-quality Methods\Homework\SumOfDifferences\bin\Debug\SumOfDifferences.exe.config
+C:\Users\p1amen\Documents\GitHub\HighQualityCode\07. High-quality Methods\Homework\SumOfDifferences\bin\Debug\SumOfDifferences.exe
+C:\Users\p1amen\Documents\GitHub\HighQualityCode\07. High-quality Methods\Homework\SumOfDifferences\bin\Debug\SumOfDifferences.pdb
+C:\Users\p1amen\Documents\GitHub\HighQualityCode\07. High-quality Methods\Homework\SumOfDifferences\obj\Debug\SumOfDifferences.csprojResolveAssemblyReference.cache
+C:\Users\p1amen\Documents\GitHub\HighQualityCode\07. High-quality Methods\Homework\SumOfDifferences\obj\Debug\SumOfDifferences.exe
+C:\Users\p1amen\Documents\GitHub\HighQualityCode\07. High-quality Methods\Homework\SumOfDifferences\obj\Debug\SumOfDifferences.pdb
