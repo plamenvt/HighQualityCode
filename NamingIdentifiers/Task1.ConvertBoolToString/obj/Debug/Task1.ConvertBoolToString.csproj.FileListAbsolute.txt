@@ -1,6 +1,0 @@
-C:\Users\p1amen\Desktop\NamingIdentifiers\Task1.ConvertBoolToString\bin\Debug\Task1.ConvertBoolToString.exe.config
-C:\Users\p1amen\Desktop\NamingIdentifiers\Task1.ConvertBoolToString\bin\Debug\Task1.ConvertBoolToString.exe
-C:\Users\p1amen\Desktop\NamingIdentifiers\Task1.ConvertBoolToString\bin\Debug\Task1.ConvertBoolToString.pdb
-C:\Users\p1amen\Desktop\NamingIdentifiers\Task1.ConvertBoolToString\obj\Debug\Task1.ConvertBoolToString.csprojResolveAssemblyReference.cache
-C:\Users\p1amen\Desktop\NamingIdentifiers\Task1.ConvertBoolToString\obj\Debug\Task1.ConvertBoolToString.exe
-C:\Users\p1amen\Desktop\NamingIdentifiers\Task1.ConvertBoolToString\obj\Debug\Task1.ConvertBoolToString.pdb

@@ -1,6 +1,0 @@
-C:\Users\p1amen\Desktop\NamingIdentifiers\Task2.PersonCreator\bin\Debug\Task2.PersonCreator.exe.config
-C:\Users\p1amen\Desktop\NamingIdentifiers\Task2.PersonCreator\bin\Debug\Task2.PersonCreator.exe
-C:\Users\p1amen\Desktop\NamingIdentifiers\Task2.PersonCreator\bin\Debug\Task2.PersonCreator.pdb
-C:\Users\p1amen\Desktop\NamingIdentifiers\Task2.PersonCreator\obj\Debug\Task2.PersonCreator.csprojResolveAssemblyReference.cache
-C:\Users\p1amen\Desktop\NamingIdentifiers\Task2.PersonCreator\obj\Debug\Task2.PersonCreator.exe
-C:\Users\p1amen\Desktop\NamingIdentifiers\Task2.PersonCreator\obj\Debug\Task2.PersonCreator.pdb
