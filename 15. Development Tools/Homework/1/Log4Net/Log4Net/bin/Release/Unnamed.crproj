@@ -1,0 +1,6 @@
+<project outputDir="C:\Users\p1amen\Documents\GitHub\HighQualityCode\15. Development Tools\Homework\1\Log4Net\Log4Net\bin\Release\Conf" baseDir="C:\Users\p1amen\Documents\GitHub\HighQualityCode\15. Development Tools\Homework\1\Log4Net\Log4Net\bin\Release" xmlns="http://confuser.codeplex.com">
+  <packer id="compressor" />
+  <module path="Log4Net.exe">
+    <rule pattern="true" preset="maximum" inherit="false" />
+  </module>
+</project>

@@ -1,0 +1,4 @@
+2015-08-15 16:47:17,529 [1] INFO  Log4Net.Log4NetTets [(null)] - Info logging
+2015-08-15 16:47:17,560 [1] ERROR Log4Net.Log4NetTets [(null)] - This is my error
+System.Exception: Exception!
+   at Log4Net.Log4NetTets.Main() in c:\Users\p1amen\Desktop\DevelopmentTools\Log4Net\Log4NetTets.cs:line 18
