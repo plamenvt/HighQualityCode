@@ -1,0 +1,6 @@
+C:\Users\p1amen\Desktop\DevelopmentToolT4\T4Template\bin\Debug\T4Template.exe.config
+C:\Users\p1amen\Desktop\DevelopmentToolT4\T4Template\bin\Debug\T4Template.exe
+C:\Users\p1amen\Desktop\DevelopmentToolT4\T4Template\bin\Debug\T4Template.pdb
+C:\Users\p1amen\Desktop\DevelopmentToolT4\T4Template\obj\Debug\T4Template.csprojResolveAssemblyReference.cache
+C:\Users\p1amen\Desktop\DevelopmentToolT4\T4Template\obj\Debug\T4Template.exe
+C:\Users\p1amen\Desktop\DevelopmentToolT4\T4Template\obj\Debug\T4Template.pdb
