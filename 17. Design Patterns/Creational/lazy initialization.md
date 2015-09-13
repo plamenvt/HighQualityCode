@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=1020">
     
     
-    <title>Telerik-Academy-HW/prototype.md at master · antoanelenkov/Telerik-Academy-HW</title>
+    <title>Telerik-Academy-HW/lazy initialization.md at master · antoanelenkov/Telerik-Academy-HW</title>
     <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
     <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
     <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-114.png">
@@ -24,7 +24,7 @@
       <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
     <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
     <link rel="assets" href="https://assets-cdn.github.com/">
-    <link rel="web-socket" href="wss://live.github.com/_sockets/MTA1MDU3MTA6ZjA4OTVjMWQ1MmQ3M2Y5NWI4NzNhMmIyNDNhZTFkNTY6YjU5NjVlMDRiYjBhY2I5NzAyYTFlMjhhZDQ0ZmI0NzY2ZjY4ZDU5YmU1NDdkMjNiOWM3ZTNlMTY3NjdiMGYxYg==--67c9a6f2d63d48ff780b169f88086fc4272770b0">
+    <link rel="web-socket" href="wss://live.github.com/_sockets/MTA1MDU3MTA6ZjA4OTVjMWQ1MmQ3M2Y5NWI4NzNhMmIyNDNhZTFkNTY6MDY3ZDhkYWJlYTAxN2VmZjc5MjgxYzgyN2Y4NGMxNDYwOTdlNjE3ZGEzZGJhYWI0NjI3OWJkMGU3MmYyYjViYQ==--181cdcca02423a5737fa8dbf191af9c7240e5184">
     <meta name="pjax-timeout" content="1000">
     <link rel="sudo-modal" href="/sessions/sudo_modal">
 
@@ -35,7 +35,7 @@
     <meta name="google-site-verification" content="KT5gs8h0wvaagLKAVWq8bbeNwnZZK1r1XQysX3xurLU">
         <meta name="google-analytics" content="UA-3769691-2">
 
-    <meta content="collector.githubapp.com" name="octolytics-host" /><meta content="collector-cdn.github.com" name="octolytics-script-host" /><meta content="github" name="octolytics-app-id" /><meta content="4E5A4312:1495:163AFA3:55F527DA" name="octolytics-dimension-request_id" /><meta content="10505710" name="octolytics-actor-id" /><meta content="plamenvt" name="octolytics-actor-login" /><meta content="671c2eb5880a305b60bdcf837097861a509d906d5b97e99f6b70bf9ae9198102" name="octolytics-actor-hash" />
+    <meta content="collector.githubapp.com" name="octolytics-host" /><meta content="collector-cdn.github.com" name="octolytics-script-host" /><meta content="github" name="octolytics-app-id" /><meta content="4E5A4312:1495:163A698:55F527D0" name="octolytics-dimension-request_id" /><meta content="10505710" name="octolytics-actor-id" /><meta content="plamenvt" name="octolytics-actor-login" /><meta content="671c2eb5880a305b60bdcf837097861a509d906d5b97e99f6b70bf9ae9198102" name="octolytics-actor-hash" />
     
     <meta content="Rails, view, blob#show" data-pjax-transient="true" name="analytics-event" />
     <meta class="js-ga-set" name="dimension1" content="Logged In">
@@ -48,7 +48,7 @@
       <link rel="icon" type="image/x-icon" href="https://assets-cdn.github.com/favicon.ico">
 
     <!-- </textarea> --><!-- '"` --><meta content="authenticity_token" name="csrf-param" />
-<meta content="mQ+WGLON9vbW2MZWLQWruMeKAwCsJ/o8pSfD/CCabZUVbObYvK2jg7nFuOFtyvmuh/uozvpmqZhojUXMOZFYEQ==" name="csrf-token" />
+<meta content="gEq0MCqqkRj0G5UHz+8s5B0+lQHu9ZBJ+/Vzb9pyDa1qZlM5Usp6ahvNQdFbxbhVWjavx5zE2pZv+dQ3TmdWXg==" name="csrf-token" />
     <meta content="72555f72e08492715aae10d9099549d8cbab70dd" name="form-nonce" />
 
     <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/github-a14e3d6410d6fd1b2fa98e4e859a3bd1fb7c3b71f16c511481f068705c04d6a5.css" media="all" rel="stylesheet" />
@@ -198,7 +198,7 @@
           Settings
         </a>
 
-        <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/logout" class="logout-form" data-form-nonce="72555f72e08492715aae10d9099549d8cbab70dd" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="c8zbnjjy386tEzl1cRcjdLaUsaSUk3Wo7cPuy3WB0kharA8spUpGTGBIQRUNAtOnMFHfmd9QcOivS0SsNjls8Q==" /></div>
+        <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/logout" class="logout-form" data-form-nonce="72555f72e08492715aae10d9099549d8cbab70dd" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="8ebxVVPG5dKoVI3U3KpTQHc26Kh4U02HcjdQcFbudwkuUEdDBk6cQ4u+hSbwqXd5h7vp/wy39CD5BfcfwEoXBw==" /></div>
           <button class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout">
             Sign out
           </button>
@@ -233,7 +233,7 @@
 <ul class="pagehead-actions">
 
   <li>
-      <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/notifications/subscribe" class="js-social-container" data-autosubmit="true" data-form-nonce="72555f72e08492715aae10d9099549d8cbab70dd" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="ehG5Md/N2AIQ/Ji3wupuklST4TpF6g8yvKfqmTy9MQJ0XUo0fUbZnT6NPM4SpSXTQ2xQrdyvyjb2OQVoxaQSjg==" /></div>    <input id="repository_id" name="repository_id" type="hidden" value="40790456" />
+      <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/notifications/subscribe" class="js-social-container" data-autosubmit="true" data-form-nonce="72555f72e08492715aae10d9099549d8cbab70dd" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="N9ZNjE0sreVyJPxzgIa1R0Df2n4jj/7YJW1nKNVauCmxJAYgLpWl0fY0rjLi9Z8ReHhACCup4oYWz62hbhyC+Q==" /></div>    <input id="repository_id" name="repository_id" type="hidden" value="40790456" />
 
       <div class="select-menu js-menu-container js-select-menu">
         <a href="/antoanelenkov/Telerik-Academy-HW/subscription"
@@ -308,7 +308,7 @@
     
   <div class="js-toggler-container js-social-container starring-container ">
 
-    <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/antoanelenkov/Telerik-Academy-HW/unstar" class="js-toggler-form starred js-unstar-button" data-form-nonce="72555f72e08492715aae10d9099549d8cbab70dd" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="6QSFNxO5pq1iswXKGsX+GxpyddmlirEvQowSbalug1dUrxAQVMk/PUMXNUnYUd1bmNiFU8wsDIrTooU6XXDbtQ==" /></div>
+    <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/antoanelenkov/Telerik-Academy-HW/unstar" class="js-toggler-form starred js-unstar-button" data-form-nonce="72555f72e08492715aae10d9099549d8cbab70dd" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="g4ZD43kwGbmxQXCkRUdRMJxyTmE/iNe/ZV3WUK0SbbsJBdDi66n9ziLPvJqEEm+RI2lnLVJe8yLck9dKduQFIw==" /></div>
       <button
         class="btn btn-sm btn-with-count js-toggler-target"
         aria-label="Unstar this repository" title="Unstar antoanelenkov/Telerik-Academy-HW"
@@ -320,7 +320,7 @@
           0
         </a>
 </form>
-    <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/antoanelenkov/Telerik-Academy-HW/star" class="js-toggler-form unstarred js-star-button" data-form-nonce="72555f72e08492715aae10d9099549d8cbab70dd" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="5Op5uMxnCLdQ1dcr2kStbD7cHud8tfEiMRvGKluJgutkjULivvG9Au8aVYppZ3g2ohxApjEENIhup3G+B6ZetA==" /></div>
+    <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/antoanelenkov/Telerik-Academy-HW/star" class="js-toggler-form unstarred js-star-button" data-form-nonce="72555f72e08492715aae10d9099549d8cbab70dd" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="6NEd9haRyFV3Cm2M7ggG1TkD3gbIrZIADkHZJtXFi52dzCCxQs3VEmGw9nETSIbj3FcqivfceUchpTzs1O5aPQ==" /></div>
       <button
         class="btn btn-sm btn-with-count js-toggler-target"
         aria-label="Star this repository" title="Star antoanelenkov/Telerik-Academy-HW"
@@ -471,7 +471,7 @@
 
 
   <div class="clone-options">You can clone with
-    <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/users/set_protocol?protocol_selector=http&amp;protocol_type=clone" class="inline-form js-clone-selector-form is-enabled" data-form-nonce="72555f72e08492715aae10d9099549d8cbab70dd" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="e4vO5+g++s1UQCxTV8+inVN6hCPs/lRmq4P5BkUT00TYwNepMAYx4q2t4M9390w5kqWrcq4auH7VOlHNLEpskg==" /></div><button class="btn-link js-clone-selector" data-protocol="http" type="submit">HTTPS</button></form>, <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/users/set_protocol?protocol_selector=ssh&amp;protocol_type=clone" class="inline-form js-clone-selector-form is-enabled" data-form-nonce="72555f72e08492715aae10d9099549d8cbab70dd" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="PkoAzHOPxtFB7+edku1q3RHUW5kvbysT8SKFtk7f5Rr8ucqfzUifjHaxiKLYkMQxz9FMvp7fpCI6AeTkNQf9vw==" /></div><button class="btn-link js-clone-selector" data-protocol="ssh" type="submit">SSH</button></form>, or <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/users/set_protocol?protocol_selector=subversion&amp;protocol_type=clone" class="inline-form js-clone-selector-form is-enabled" data-form-nonce="72555f72e08492715aae10d9099549d8cbab70dd" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="2Q+52j8sbvqLVaShCHXWplvEK5G5vEwq35FvCnFdUenYqVn+fR7xv6ax1WUS7dT41U4S4XoOQwlGHpYi2R0clQ==" /></div><button class="btn-link js-clone-selector" data-protocol="subversion" type="submit">Subversion</button></form>.
+    <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/users/set_protocol?protocol_selector=http&amp;protocol_type=clone" class="inline-form js-clone-selector-form is-enabled" data-form-nonce="72555f72e08492715aae10d9099549d8cbab70dd" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="RFxbM+t3+DeI5P9UH9IRgS6LrFWAFaP4Kgm1r7GazE3TIJjo4jZ5vQmSfTyU+7WmSR6l5XscVI68U5x9onYFPA==" /></div><button class="btn-link js-clone-selector" data-protocol="http" type="submit">HTTPS</button></form>, <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/users/set_protocol?protocol_selector=ssh&amp;protocol_type=clone" class="inline-form js-clone-selector-form is-enabled" data-form-nonce="72555f72e08492715aae10d9099549d8cbab70dd" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="ZklcXorKoTEp0RgQuRKv3375xgJUJ9xRyBjcvYd/6BJEtNX7rn3jb4E5U5DKHhGeYcTNqauOzWYiBOwDJlz+pQ==" /></div><button class="btn-link js-clone-selector" data-protocol="ssh" type="submit">SSH</button></form>, or <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/users/set_protocol?protocol_selector=subversion&amp;protocol_type=clone" class="inline-form js-clone-selector-form is-enabled" data-form-nonce="72555f72e08492715aae10d9099549d8cbab70dd" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="JviKzR1zyF/XTampYRC7Eg6s7zoz/GZWbiYrBuBrmAK3gglxbdcxkSa8VarRNSRE8GlYUBn+WIvh62FyQd5Kug==" /></div><button class="btn-link js-clone-selector" data-protocol="subversion" type="submit">Subversion</button></form>.
     <a href="https://help.github.com/articles/which-remote-url-should-i-use" class="help tooltipped tooltipped-n" aria-label="Get help on which URL is right for you.">
       <span class="octicon octicon-question"></span>
     </a>
@@ -495,9 +495,9 @@
 
           
 
-<a href="/antoanelenkov/Telerik-Academy-HW/blob/310d53ec51942322f19990b326384f41258e5cd0/C%23HighQuality_Homeworks/14.Homework.DesignPatterns/Creational/prototype.md" class="hidden js-permalink-shortcut" data-hotkey="y">Permalink</a>
+<a href="/antoanelenkov/Telerik-Academy-HW/blob/310d53ec51942322f19990b326384f41258e5cd0/C%23HighQuality_Homeworks/14.Homework.DesignPatterns/Creational/lazy%20initialization.md" class="hidden js-permalink-shortcut" data-hotkey="y">Permalink</a>
 
-<!-- blob contrib key: blob_contributors:v21:5762148766fed1ead2efa6a26b4711e6 -->
+<!-- blob contrib key: blob_contributors:v21:e6710ea86fa123dd6d95a7789dd6ba86 -->
 
   <div class="file-navigation js-zeroclipboard-container">
     
@@ -540,7 +540,7 @@
 
 
             <a class="select-menu-item js-navigation-item js-navigation-open selected"
-               href="/antoanelenkov/Telerik-Academy-HW/blob/master/C%23HighQuality_Homeworks/14.Homework.DesignPatterns/Creational/prototype.md"
+               href="/antoanelenkov/Telerik-Academy-HW/blob/master/C%23HighQuality_Homeworks/14.Homework.DesignPatterns/Creational/lazy%20initialization.md"
                data-name="master"
                data-skip-pjax="true"
                rel="nofollow">
@@ -579,7 +579,7 @@
     </div>
 
     <div class="breadcrumb js-zeroclipboard-target">
-      <span class="repo-root js-repo-root"><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/antoanelenkov/Telerik-Academy-HW" class="" data-branch="master" data-pjax="true" itemscope="url"><span itemprop="title">Telerik-Academy-HW</span></a></span></span><span class="separator">/</span><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/antoanelenkov/Telerik-Academy-HW/tree/master/C%23HighQuality_Homeworks" class="" data-branch="master" data-pjax="true" itemscope="url"><span itemprop="title">C#HighQuality_Homeworks</span></a></span><span class="separator">/</span><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/antoanelenkov/Telerik-Academy-HW/tree/master/C%23HighQuality_Homeworks/14.Homework.DesignPatterns" class="" data-branch="master" data-pjax="true" itemscope="url"><span itemprop="title">14.Homework.DesignPatterns</span></a></span><span class="separator">/</span><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/antoanelenkov/Telerik-Academy-HW/tree/master/C%23HighQuality_Homeworks/14.Homework.DesignPatterns/Creational" class="" data-branch="master" data-pjax="true" itemscope="url"><span itemprop="title">Creational</span></a></span><span class="separator">/</span><strong class="final-path">prototype.md</strong>
+      <span class="repo-root js-repo-root"><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/antoanelenkov/Telerik-Academy-HW" class="" data-branch="master" data-pjax="true" itemscope="url"><span itemprop="title">Telerik-Academy-HW</span></a></span></span><span class="separator">/</span><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/antoanelenkov/Telerik-Academy-HW/tree/master/C%23HighQuality_Homeworks" class="" data-branch="master" data-pjax="true" itemscope="url"><span itemprop="title">C#HighQuality_Homeworks</span></a></span><span class="separator">/</span><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/antoanelenkov/Telerik-Academy-HW/tree/master/C%23HighQuality_Homeworks/14.Homework.DesignPatterns" class="" data-branch="master" data-pjax="true" itemscope="url"><span itemprop="title">14.Homework.DesignPatterns</span></a></span><span class="separator">/</span><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/antoanelenkov/Telerik-Academy-HW/tree/master/C%23HighQuality_Homeworks/14.Homework.DesignPatterns/Creational" class="" data-branch="master" data-pjax="true" itemscope="url"><span itemprop="title">Creational</span></a></span><span class="separator">/</span><strong class="final-path">lazy initialization.md</strong>
     </div>
   </div>
 
@@ -619,24 +619,24 @@
   <div class="file-actions">
 
     <div class="btn-group">
-      <a href="/antoanelenkov/Telerik-Academy-HW/raw/master/C%23HighQuality_Homeworks/14.Homework.DesignPatterns/Creational/prototype.md" class="btn btn-sm " id="raw-url">Raw</a>
-        <a href="/antoanelenkov/Telerik-Academy-HW/blame/master/C%23HighQuality_Homeworks/14.Homework.DesignPatterns/Creational/prototype.md" class="btn btn-sm js-update-url-with-hash">Blame</a>
-      <a href="/antoanelenkov/Telerik-Academy-HW/commits/master/C%23HighQuality_Homeworks/14.Homework.DesignPatterns/Creational/prototype.md" class="btn btn-sm " rel="nofollow">History</a>
+      <a href="/antoanelenkov/Telerik-Academy-HW/raw/master/C%23HighQuality_Homeworks/14.Homework.DesignPatterns/Creational/lazy%20initialization.md" class="btn btn-sm " id="raw-url">Raw</a>
+        <a href="/antoanelenkov/Telerik-Academy-HW/blame/master/C%23HighQuality_Homeworks/14.Homework.DesignPatterns/Creational/lazy%20initialization.md" class="btn btn-sm js-update-url-with-hash">Blame</a>
+      <a href="/antoanelenkov/Telerik-Academy-HW/commits/master/C%23HighQuality_Homeworks/14.Homework.DesignPatterns/Creational/lazy%20initialization.md" class="btn btn-sm " rel="nofollow">History</a>
     </div>
 
       <a class="octicon-btn tooltipped tooltipped-nw"
-         href="github-windows://openRepo/https://github.com/antoanelenkov/Telerik-Academy-HW?branch=master&amp;filepath=C%23HighQuality_Homeworks%2F14.Homework.DesignPatterns%2FCreational%2Fprototype.md"
+         href="github-windows://openRepo/https://github.com/antoanelenkov/Telerik-Academy-HW?branch=master&amp;filepath=C%23HighQuality_Homeworks%2F14.Homework.DesignPatterns%2FCreational%2Flazy%20initialization.md"
          aria-label="Open this file in GitHub Desktop"
          data-ga-click="Repository, open with desktop, type:windows">
           <span class="octicon octicon-device-desktop"></span>
       </a>
 
-        <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/antoanelenkov/Telerik-Academy-HW/edit/master/C%23HighQuality_Homeworks/14.Homework.DesignPatterns/Creational/prototype.md" class="inline-form js-update-url-with-hash" data-form-nonce="72555f72e08492715aae10d9099549d8cbab70dd" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="lH30aHhWyzDRu8Tz/zGxF7SdFyW8E+VXK6rwgoQxVeDPF3pIrI1J1n0YIkxlE9FkqSkNa1O9k7joQ8I6Wol/eA==" /></div>
+        <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/antoanelenkov/Telerik-Academy-HW/edit/master/C%23HighQuality_Homeworks/14.Homework.DesignPatterns/Creational/lazy%20initialization.md" class="inline-form js-update-url-with-hash" data-form-nonce="72555f72e08492715aae10d9099549d8cbab70dd" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="wfVACaIrVD5oubo9/229ag4XQCYRgrUc7pw694Kn5oM+/LsN0gFe2AlEfaM1CGE6BUAyWvzxpI4c4FfACXhmhA==" /></div>
           <button class="octicon-btn tooltipped tooltipped-nw" type="submit"
             aria-label="Fork this project and edit the file" data-hotkey="e" data-disable-with>
             <span class="octicon octicon-pencil"></span>
           </button>
-</form>        <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/antoanelenkov/Telerik-Academy-HW/delete/master/C%23HighQuality_Homeworks/14.Homework.DesignPatterns/Creational/prototype.md" class="inline-form" data-form-nonce="72555f72e08492715aae10d9099549d8cbab70dd" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="t1hFa5avxnehCQO2Z+nzP0uINretCJH4fAAwGhwqnB9JKihjBW3SSv+HU/tZEqBdKTP0Rr2Lv8OM4P3LjCMn3w==" /></div>
+</form>        <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/antoanelenkov/Telerik-Academy-HW/delete/master/C%23HighQuality_Homeworks/14.Homework.DesignPatterns/Creational/lazy%20initialization.md" class="inline-form" data-form-nonce="72555f72e08492715aae10d9099549d8cbab70dd" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="MJyvH+PAuRGGr5gCWu+NDHQ6AjAhdQK8GxnljbpNuSiW07zmOSMfQOwra/RzFywQpa4EQUy9vCwZR3qpZpTfXQ==" /></div>
           <button class="octicon-btn octicon-btn-danger tooltipped tooltipped-nw" type="submit"
             aria-label="Fork this project and delete the file" data-disable-with>
             <span class="octicon octicon-trashcan"></span>
@@ -644,154 +644,91 @@
 </form>  </div>
 
   <div class="file-info">
-      125 lines (87 sloc)
+      66 lines (45 sloc)
       <span class="file-info-divider"></span>
-    3.37 KB
+    2.49 KB
   </div>
 </div>
 
   
   <div id="readme" class="blob instapaper_body">
-    <article class="markdown-body entry-content" itemprop="mainContentOfPage"><h1><a id="user-content-prototype-pattern" class="anchor" href="#prototype-pattern" aria-hidden="true"><span class="octicon octicon-link"></span></a>Prototype Pattern</h1>
+    <article class="markdown-body entry-content" itemprop="mainContentOfPage"><h1><a id="user-content-lazy-initialization-pattern" class="anchor" href="#lazy-initialization-pattern" aria-hidden="true"><span class="octicon octicon-link"></span></a>Lazy initialization Pattern</h1>
 
 <h2><a id="user-content-Мотивация" class="anchor" href="#Мотивация" aria-hidden="true"><span class="octicon octicon-link"></span></a>Мотивация</h2>
 
 <ul>
-<li>Служи за  клониране на вече създадени обекти.</li>
-<li>Ползват се, когато създаването на нов обект(копие) използва много повече ресурси, отколкото, ако го клонираме. </li>
-<li> При класове, които се инстанцират по време на изпълнение на програмата</li>
+<li>В много случаи се достъпват данни или създават обекти, от които или нямаме нужда веднага или никога не използваме. Този проблем се решава с така наречният шаблон за дизайн 'Lazy initialization pattern', който предотвратява излишно използване на ресурси от програмата ни.</li>
 </ul>
 
 <h2><a id="user-content-Цел" class="anchor" href="#Цел" aria-hidden="true"><span class="octicon octicon-link"></span></a>Цел</h2>
 
 <ul>
-<li>Създава нови обекти като клонира вече създадени такива.</li>
+<li>Служи за  използване на данните в момента, в който имаме нужда от тях</li>
 </ul>
 
 <h2><a id="user-content-Приложение" class="anchor" href="#Приложение" aria-hidden="true"><span class="octicon octicon-link"></span></a>Приложение</h2>
 
 <ul>
-<li><p>Пример 1:</p>
-
-<p>Нека имаме игра 'лабиринт' с различни нива. Всеки един лабиринт има нужда от елемент играч, врата, стена, живот, бонус и т.н. подадени като параметър на обекта 'лабиринт'. Вместо за всяко едно ниво да инстанцираме всеки един елемент наново при подаването му в констуктора ла 'лабиринт' е по-подходящо да ги клонираме и да подаваме копията като параметър.</p>
-
-<ul>
-<li>Пример 2:</li>
-</ul></li>
+<li>Пример 1:</li>
 </ul>
 
-<p>Нека имаме игра, в която след всяко едно ниво, тя трябва да запомня state-a си и при евентуално умиране на играча или crash на играта да се връща в последното си запазено състояние, вместо в началото. Това може да се постигне с клониране на обекта 'game' и запазването му в накакъв файл.</p>
-
-<ul>
-<li>Пример 3:</li>
-</ul>
-
-<p>Нека кажем, че създаваме библиотека. Ако при създаването на обектите, не искаме да бъде ясно на клиента как точно става това, можем да направим констуктора на дадения клас 'internal' и съответно да предоставим възможност за клонирането на готов такъв обект.</p>
+<p>Нека имаме база с данни. В нея имаме таблица, която се грижи за данните на един студент в училище. Студентът има поредица от курсове, учители, домашни, изпити, оценки и т.н. Използвайки 'Entity Framework' ние имаме възможността да работим с класа 'Student' като всеки един обект от този клас ни представлява запис от базата с данни. Какво би станало ако имаме нужда от оценките на студентите. Ще издърпаме висчки данни за всеки един студент и освен оценките му ще имаме и всичката друга ненужна информация, която хем ще заеме излишна памет, хем ще забави преноса на данни заради обема си. Това би било така, ако 'Entity framework' е писан от студенти преди изпит по КПК :D Но тъй като не е, при създаването на навигационни property-та(това са полета, които сочат към други таблици - например 'курсове', 'учители') те са дефинират като 'virtual' такива и дават възможност вътрешно 'EF' да създава 'proxy' класове, които представляват основните класове(Student)и доставят данните само, когато имаме нужда от тях или с други думи, когато напишем 'currentStudent.grades' и активираме 'get'-a на полето.</p>
 
 <h2><a id="user-content-Известни-употреби" class="anchor" href="#Известни-употреби" aria-hidden="true"><span class="octicon octicon-link"></span></a>Известни употреби</h2>
 
 <ul>
-<li>клониране на всякакви данни, до които ще ни струва скъпо да достъпим отново(например от база с данни)</li>
+<li>Entity Framework</li>
+<li>Singleton design pattern</li>
+<li>IQueryable интерфейс - позволява филтрацията да се извършва в базата с данни, след което да се материализира в RAM паметта при нуждата от данните(lazy loading)</li>
 </ul>
 
 <h2><a id="user-content-Имплментация" class="anchor" href="#Имплментация" aria-hidden="true"><span class="octicon octicon-link"></span></a>Имплментация</h2>
 
-<pre><code>using System;
-
-namespace PrototypeExample
+<pre><code>public class Customer
 {
-  class MainApp
-  {
-    static void Main()
+    public int CustomerID { get; set; }
+    public string Name { get; set; }
+    private IEnumerable&lt;Order&gt; _orders;
+
+    public IEnumerable&lt;Order&gt; Orders
     {
-      // Create two instances and clone each
-
-      ConcretePrototype1 p1 = new ConcretePrototype1("I");
-      ConcretePrototype1 c1 = (ConcretePrototype1)p1.Clone();
-      Console.WriteLine("Cloned: {0}", c1.Id);
-
-      ConcretePrototype2 p2 = new ConcretePrototype2("II");
-      ConcretePrototype2 c2 = (ConcretePrototype2)p2.Clone();
-      Console.WriteLine("Cloned: {0}", c2.Id);
-
-      // Wait for user
-      Console.ReadKey();
-    }
-  }
-
-  abstract class Prototype
-  {
-    private string _id;
-
-    public Prototype(string id)
-    {
-      this._id = id;
+        get
+        {
+            if (_orders == null)
+            {
+                _orders = OrdersDatabase.GetOrders(CustomerID);
+            }
+            return _orders;
+        }
     }
 
-    // Gets id
-    public string Id
+    // Constructor
+    public Customer(int id, string name)
     {
-      get { return _id; }
+        CustomerID = id;
+        Name = name;
     }
-
-    public abstract Prototype Clone();
-  }
-
-  class ConcretePrototype1 : Prototype
-  {
-    public ConcretePrototype1(string id)
-      : base(id)
-    {
-    }
-
-    // Returns a shallow copy
-    public override Prototype Clone()
-    {
-      return (Prototype)this.MemberwiseClone();
-    }
-  }
-
-  class ConcretePrototype2 : Prototype
-  {
-
-    public ConcretePrototype2(string id)
-      : base(id)
-    {
-    }
-
-    // Returns a shallow copy
-    public override Prototype Clone()
-    {
-      return (Prototype)this.MemberwiseClone();
-    }
-  }
-}
+} 
 </code></pre>
 
 <h2><a id="user-content-Последствия" class="anchor" href="#Последствия" aria-hidden="true"><span class="octicon octicon-link"></span></a>Последствия</h2>
 
 <ul>
 <li>Спестява използвани ресурси.</li>
-<li>Улеснява значително създаването на нови обекти</li>
+<li>Предотвратява наличието на излишна и ненужна информация</li>
 </ul>
 
 <h2><a id="user-content-Сродни-модели" class="anchor" href="#Сродни-модели" aria-hidden="true"><span class="octicon octicon-link"></span></a>Сродни модели</h2>
 
 <ul>
-<li>Factory method</li>
-<li>Abstract Factory</li>
+<li>Не мисля, че има</li>
 </ul>
 
 <h2><a id="user-content-Проблеми" class="anchor" href="#Проблеми" aria-hidden="true"><span class="octicon octicon-link"></span></a>Проблеми</h2>
 
 <ul>
-<li>Използването на този шаблон изисква всички класове, които трябва да бъдат копирани да наследяват ICloneable(ако ползваме вградения в .NET интерфейс) или да имат свой собствен метод Clone(). В случаите, когато това не е изпълнено, клонирането става по-трудно.</li>
-<li>Трябва да се внимава при имлементирането на методите, защото методът 'MemberwiseClone()'(когато става въпрос за референтни типове) копира референцията им, което води до създаването на 'shallow copy'.</li>
+<li>Неправилното му използване. При достъпът до скромни ресурси, няма нужда излишно да усложняваме кода ни.</li>
 </ul>
-
-<h2><a id="user-content-uml--диаграма" class="anchor" href="#uml--диаграма" aria-hidden="true"><span class="octicon octicon-link"></span></a>UML  диаграма</h2>
-
-<p><a href="https://camo.githubusercontent.com/f5fdbbf99f0f44dad75dfe081defd1c334210f6e/687474703a2f2f7777772e6170776562636f2e636f6d2f696d616765732f50726f746f747970652e6a7067253232" target="_blank"><img src="https://camo.githubusercontent.com/f5fdbbf99f0f44dad75dfe081defd1c334210f6e/687474703a2f2f7777772e6170776562636f2e636f6d2f696d616765732f50726f746f747970652e6a7067253232" alt="alt text" data-canonical-src="http://www.apwebco.com/images/Prototype.jpg%22" style="max-width:100%;"></a></p>
 </article>
   </div>
 
@@ -830,7 +767,7 @@ namespace PrototypeExample
       <span class="mega-octicon octicon-mark-github" title="GitHub"></span>
 </a>
     <ul class="site-footer-links">
-      <li>&copy; 2015 <span title="0.08036s from github-fe122-cp1-prd.iad.github.net">GitHub</span>, Inc.</li>
+      <li>&copy; 2015 <span title="0.10586s from github-fe136-cp1-prd.iad.github.net">GitHub</span>, Inc.</li>
         <li><a href="https://github.com/site/terms" data-ga-click="Footer, go to terms, text:terms">Terms</a></li>
         <li><a href="https://github.com/site/privacy" data-ga-click="Footer, go to privacy, text:privacy">Privacy</a></li>
         <li><a href="https://github.com/security" data-ga-click="Footer, go to security, text:security">Security</a></li>
